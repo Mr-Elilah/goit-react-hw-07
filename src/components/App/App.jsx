@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import "./App.css";
 import "../../index.css";
 import { useEffect } from "react";
-import { fetchContacts } from "../../redux/contactOps";
+import { fetchContacts } from "../../redux/contactsOps";
 import { selectLoading, selectError } from "../../redux/contactSlice";
 
 export default function App() {
